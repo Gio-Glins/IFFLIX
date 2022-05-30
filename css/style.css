@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("../img/Background.jpg");
+    background-repeat: no repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+
+}
+.divPrincipal{
+    background-color: #ffffff80;
+    min-width: 400px;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 1px 0px  #00000060;
+}
+::placeholder{
+    color: #ffffff60;
+}
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: cyan;
+}
+p{
+    font-weight: bolder;
+    color:#151515;
+}
+
+.login input{
+    width: 100%;
+    padding: 7px 7px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #000000;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 17px;
+    border-radius: 0;
+}
+.login {
+    position: relative;
+    padding-top: 0px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+button{
+    background-color: #3b3b3b;
+    border-color: #3b3b3b;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background-color: cyan;
+    color: #000;
+    padding: 12px 22px;
+    transition: 0.5s;
+    border-radius: 15px;
+
+}
+
+
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    color: cyan;
+    transition: all .3s ease-out;
+}
